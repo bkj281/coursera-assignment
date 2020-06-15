@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-size: 20px;
+    margin:15px;
+}
+#heading {
+    text-align: center;
+    font-size: 175%;
+    border: none;
+}
+.title {
+    font-size: 125%;
+    width: 100px;
+    margin: 0px;
+    position: absolute;
+    top:0px;
+    right:0px;
+    text-align: center;
+    border: 1px solid black;
+}
+.out {
+    float: left;
+    margin-bottom: 10px;
+    padding:10px;
+}
+.in {
+    border: 1px solid black;
+    position: relative;
+    padding: 10px;
+    background-color: dimgray;
+}
+#t1 {
+    background-color: indianred;
+}
+#t2 {
+    background-color: skyblue;
+}
+#t3 {
+    background-color: yellow;
+}
+/*PC*/
+@media (min-width:992px) {
+    #d1, #d2, #d3 {width: 33.33%;}
+}
+/*Tablet*/
+@media (min-width:768px) and (max-width:991px) {
+    #d1, #d2 {width: 50%;}
+    #d3 {width: 100%;}
+}
+/*Mobile*/
+@media (max-width:767px) {
+    #d1, #d2, #d3 {width: 100%;}
+}
