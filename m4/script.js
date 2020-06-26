@@ -4,7 +4,6 @@ function print() {
     var a;
     for (i = 0; i < names.length; i++) {
         a = names[i].slice(0, 1);
-        console.log(a);
         if (a === "J") {
                 gb(i);
         }
